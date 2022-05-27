@@ -1,0 +1,529 @@
+body{
+    margin:0px; 
+    padding:0px;
+
+}
+/* *{border:1px solid black;} */
+/* ====fonts====*/
+
+@font-face{
+    font-family:Hebbo;
+    src:url(fonts/Heebo-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family:oswald;
+    src:url(fonts/Oswald-Bold.ttf);
+}
+@font-face{
+    font-family:Titillium;
+    src:url(fonts/TitilliumWeb-Regular.ttf);
+}
+header{
+    background-color: #374030;
+    color:white;
+    overflow:hidden;
+    box-shadow:0px 7px 9px rgb(155, 141, 141);
+}
+#head-ul li{
+   display:inline-block;
+    padding:7px;
+    cursor:pointer;
+    color:white;
+}
+#head-ul li:hover{
+    background-color: red;
+}
+nav{
+   float:right;
+   margin-right:70px;
+   font-family: roboto;
+   font-size:19px;
+}
+
+header>div{
+    margin-top:6px;
+    margin-left:50px;
+    display: inline-block;
+    
+}
+
+h1,h2,h3,h4,h5,h6{font-family:oswald;}
+p{font-family:Titillium;}
+/*=====-----Section One------=====*/
+@keyframes colourChanger{
+  20%{color:green}
+  40%{color:yellowgreen}
+  60%{color:blueviolet}
+  80%{color:rgb(118, 21, 21)}
+  100%{color:palevioletred}
+}
+
+#OneMain-div{
+    display:flex;
+    margin-left: 17%;
+    margin-top:95px;
+}
+.min-img img{
+    width:300px;
+    border:7px solid white;
+    border-radius: 50%;
+    box-shadow: 3px 5px 20px gray,
+    -3px -5px 20px gray;
+    margin:20px 30px;
+}
+.sec-1indiv-2{
+ margin-top:20px;
+}
+.main-p-about{
+    margin-right:220px;
+    font-size:20px;
+    animation-name: colourChanger;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+
+.developer{
+    margin:0px;
+    padding:0px;
+    font-family:Hebbo;
+    
+}
+.first-h1{
+    margin:0px;
+    padding:0px;
+   font-size:50px;
+   animation-name: colourChanger;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+.med-icon{margin-top:50px;}
+.med-icon img{
+    margin-right:20px;
+}
+.med-icon img:hover{
+    background-color:blue;
+}
+/*=======---- Section Two style ----=======*/
+                                
+
+#sec2Mdiv{
+    background-color:#2f4f5f;
+    color:white;
+    margin-top:85px;
+
+ 
+}
+#sec2Mdiv>h1{
+   margin-left:25px;
+   padding:20px 0px;
+
+}
+.sec2sd{
+  width:45%;
+  display:flex;
+  padding-bottom:22px;
+}
+.section2-div1,.section2-div3{
+    float:left;
+    margin-left:50px;
+}
+.section2-div1 img{
+    background-color:rgb(154, 204, 221);
+    border-radius: 8px;
+}
+.sec2sd img{
+    width:80px;
+}
+.sec2sd div:last-child{
+    margin-top:-15px;
+    padding-left:20px;
+}
+/*=======------ Section Three style -----======*/
+
+#section-3 h2{
+    text-align: center;
+}
+#section-3 h4{
+    margin:0px;
+    padding-left:17px;
+}
+.seC-3-all{
+    border:2px solid black;
+    width:30.555%;
+    height:320px;
+    display:inline-block;
+    margin:15px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.seC-3-all img{
+    width:100%;
+    height:100%;
+}
+/*=======------- Section Four style ------======*/
+
+#secTion-4{
+    background-color:#1cbbb4;
+    margin:60px 0px;
+}
+#secTion-4 h4{
+    font-size:26px;
+    padding:6px 20px;
+}
+.sk-box{
+    display:inline-block;
+    position:relative;
+    margin-left:5em;
+}
+.sk-box>p{
+    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+}
+.sk-outline{
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+    padding:1px;
+    box-shadow:4px 4px 6px black,
+            -4px -4px 6px black;
+  
+}
+.sk-inline{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    margin:19px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:inset 4px 5px 6px black,
+         inset -5px -5px 10px  black;
+
+}
+.sk-inline span{
+    font-size:22px;
+}
+circle{
+    fill:none;
+    stroke:url(#GradientColor);
+    stroke-width:20px;
+    stroke-dasharray:472;
+    animation-name:anim;
+    animation-duration:1s ;
+    animation-direction: linear;
+}
+#cir-1{
+    stroke-dashoffset:100;
+}
+#cir-2{
+    stroke-dashoffset: 145;
+}
+#cir-3{
+    stroke-dashoffset: 244;
+}
+#cir-4{
+  stroke-dashoffset:280;
+}
+
+svg{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+/*====  ---footer-- ===*/
+
+footer{
+  background-color:#26393a;
+  color:white;
+  margin-top:102px;
+}
+
+.M1in-fot{
+    display:inline-block;
+    width:30%;
+}
+.M1sd-3{
+    margin:0px;
+    padding:0px;
+    margin-bottom: 20px;
+    margin-left:95px;
+   
+}
+.M1sd-3 form textarea{
+    width:100%;
+    resize:none;
+    height:65px;
+    font-size: 18px;
+}
+.M1sd-3 h3{
+    margin:0px;
+    padding:0px;
+    margin-top:15px;
+ 
+}
+.M1sd-3 form input{
+    width:95%;
+    padding:6px 9px;
+    font-size:18px;
+    margin-top:6px;
+}
+.M1sd-2{
+position:relative;
+top:-26px;
+left:100px;
+ 
+}
+.M1sd-2 h3{
+    padding-left:100px;
+}
+
+.M1sd-2 ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    padding-left:100px;
+
+  
+}
+.M1sd-2 ul li{
+    margin-bottom:5px;
+    font-family:Roboto;
+}
+.M1sd-2 ul a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.M1sd-2 ul a:hover{
+  color:aqua;
+}
+.M1sd-1{
+   position:relative;
+   left:50px;
+   top:-26px;
+}
+
+.M1sd-1 p{
+    font-size:19px;
+    padding:0px; 
+    margin:0px;
+}
+/*======M div Two style=====*/
+
+#fot-mdiv2{
+    background-color:#404040;
+}
+.M2sd-1{
+    margin-left:20px;
+ 
+
+}
+.M2sd-1 p{
+    padding:0px;
+    margin:0px;
+    position:relative;
+    bottom:20px;
+
+}
+.M2sd-2{
+    margin:0px;
+    margin-left:37%;
+    margin-top: 10px;
+    
+}
+.M2sd-2 img{
+    border-radius: 50%;
+    margin-left:20px;
+
+}
+.M2sd-2 img:hover{
+    background-color:white;
+}
+/*========= Mobile responsive ==========*/
+
+@media screen and (max-width:500px){
+header div{
+    display:block;
+    margin-left:34px;
+}
+nav{
+    margin-right: 0px;
+    font-size:16px;
+    float:left;
+}
+nav ul{
+    padding-left:28px;
+}
+/*header end*/
+
+/* section one */
+
+#OneMain-div{
+    display:flex;
+    flex-direction:column;
+    margin-left: 0px;
+    margin-top:10px;
+}
+.sec-1indiv-2 {  padding:5px;  }
+
+.min-img img {
+    width: 270px;
+    margin: 15px 5%;
+    margin-left:46px;
+}
+.first-h1{
+    font-size:40px;
+}
+.main-p-about {
+    margin-right: 0px;
+    font-size: 18px;
+    padding: 5px;
+}
+/*  section two  */
+
+#sec2Mdiv{
+margin-top: 33px;
+}
+.sec2sd img{
+    width:71px;
+    padding:0px 5px;
+
+}
+
+#sec2Mdiv div{
+    margin:0px;
+    padding:0px;
+}
+#sec2Mdiv>h1 {    padding: 0px 0px;  }
+
+.sec2sd{  width:100%; }
+
+.section2-div1, .section2-div3 {
+  float: none; 
+  margin-left: 0px;
+}
+.sec2sd div:last-child {
+
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
+/*   section three */
+.seC-3-all {
+
+    width: 94%;
+    height: 290px;
+    display: block;
+    margin: 7px;
+
+}
+
+
+/* Footer */
+
+.M1in-fot {
+    display: block;
+    width: 96%;
+}
+.M1sd-1 {
+    left: 10px;
+    top: 2px;
+}
+.M1sd-1 p{  font-size: 16px; padding-right:5px;  }
+.M1sd-2{
+top:0px;
+left:0px;
+}
+.M1sd-2 h3{  padding-left:10px; }
+
+.M1sd-2 ul{  padding-left:10px;   }
+
+
+.M1sd-3{
+    margin-left:0px; 
+}
+.M1sd-3 h3{  margin-left:8px;}
+.M1sd-3 form input{
+    margin-left:10px;
+    width:94%;
+    padding:6px 0px;
+}
+.M2sd-1 {
+    margin-left: 11px;
+}
+.M2sd-2 {  margin-left: 0px;}
+
+.M1sd-3 form textarea {
+    width: 94%;
+    margin-left: 9px;
+}
+
+.M2sd-1 p{
+    bottom:0px;
+}
+
+}
+@media screen and (min-width:430px) and (max-width:549px) {
+header div{
+    margin-left: 30%;
+}
+nav {
+    margin-right: 0px;
+    font-size: 18px;
+    float: none;
+    margin-left: 10%;
+}
+.min-img img{ margin-left:19%;}
+
+.sk-box{margin-left:9em;}
+
+}
+@media screen and (min-width:550px) and (max-width:768px) {
+#OneMain-div{ margin:0px;}
+.min-img img{margin:30px 30px;}
+
+.main-p-about {
+  margin-right: 0px;
+  font-size: 17px;
+}
+.first-h1{font-size:44px;}
+
+.developer{font-size:15px;}
+
+.section2-div1, .section2-div3{margin-left: 35px;}
+
+.sec2sd{width:44%}
+.seC-3-all{
+    width: 46%;
+    height: 280px;
+    margin: 8px;
+}
+
+#section-3 h2{
+    text-align: left;
+    position:relative;
+    left:-45px;
+}
+.sk-box{margin-bottom:20px;}
+
+.M1in-fot {
+    display:inline-block;
+    width:45%;
+}
+.M1sd-1,.M1sd-2 {
+    position: relative;
+    left: 16px;
+    top: -1px;
+}
+.M1sd-3 {
+    margin-left: 20px;
+}
+.M2sd-2 {
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+
+
+}

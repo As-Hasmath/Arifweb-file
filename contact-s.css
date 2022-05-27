@@ -1,0 +1,131 @@
+ body{
+     background:rgba(0,0,0,0.6) url(image/business\ card\ 4-bg.jpg);
+     background-blend-mode: darken;
+     background-repeat:no-repeat;
+     background-size:100%;
+     color:white;
+       
+ }
+
+.C-mindiv-1 h2{
+ text-align: center;
+ margin-bottom:0px;
+}
+.C-mindiv-1 p{
+    text-align: center;
+    margin: 0px;
+    font-size:19px;
+    font-weight:400;
+    padding:0px 120px;
+}
+#C-mindiv-2{
+   width:45%;
+   margin-left:100px;
+   float:left;
+  
+}
+#C-mindiv-2 input{
+    display: block;
+    padding: 14px;
+    margin: 11px 0px;
+    border-radius: 15px;
+    width:350px;
+    font-size:19px;
+    border:none;
+    background-color:rgba(255,255,255,0.5);
+}
+#C-mindiv-2 input[type=submit]{
+    padding: 10px 20px;
+    margin: 0px;
+    margin-left:10px;
+    border-radius: 0px;
+    width: auto;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color:rgb(45, 163, 241);
+    color:white;
+    border:none;
+}
+#C-mindiv-2 form input::-webkit-input-placeholder{
+color:blue;
+}
+#C-mindiv-2 form textarea::-webkit-input-placeholder{
+    color:blue;
+}
+#C-mindiv-2 form textarea{
+    resize:none;
+    display: block;
+    padding: 14px;
+    margin: 11px 0px;
+    border-radius: 15px;
+    width:350px;
+    height:130px;
+    font-size:19px;
+    background-color:rgba(255,255,255,0.5);
+    font-family:roboto;
+}
+#C-mindiv-3{
+  width:45%;
+  display: inline-block;
+  height: 400px;
+}
+#C-mindiv-3 h4,p{
+  margin:0px;
+}
+#C-mindiv-3 h3{
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+#C-mindiv-3 div{
+    margin: 30px 4px;
+    
+}
+.fa-solid,.fa-brands{
+    font-size:25px;
+    background-color: aqua;
+    border-radius: 50%;
+    padding:15px;
+    color:black;
+}
+.md-3-sd{
+    display:inline-block;
+    width:40%;
+}
+
+/*===== for mobile===*/
+
+@media screen and (max-width:500px){
+#C-mindiv-2{
+   margin-left:10px;
+   float:none;
+  
+}
+.C-mindiv-1 p{
+    padding:9px;
+    font-size:16px;
+}
+body{
+    background:rgba(0,0,0,0.6) url(image/business\ card\ 4-bg.jpg);
+    background-blend-mode: darken;
+   
+}
+
+#C-mindiv-3 {
+    width: 96%;
+    display: block;
+    height: 455px;
+    padding-left: 14px;
+}
+.md-3-sd{
+display: block;
+width:100%;
+}
+#C-mindiv-3 div {
+    margin: 20px 0px;
+}
+#C-mindiv-2 input{
+    width:86vw;
+}
+#C-mindiv-2 form textarea{width:86vw;}
+}

@@ -1,0 +1,52 @@
+
+#head-1,.pt-1{
+    text-align: center;
+    margin-bottom:0px;
+}
+.pt-1{  margin:0px;  font-size:18px; font-weight: 400;}
+
+#div-s2{
+    padding:10px 40px;
+    margin-left:55px;
+}
+#div-s2>div{
+    padding:10px;
+    width:45.654%;
+    margin:10px;
+    display: inline-block;
+    background-color: aqua;
+}
+#div-s2>div img{
+    width:550px;
+    height:440px;
+
+}
+#card-dg{
+    background-color:blueviolet;
+}
+
+/* Mobile style */
+@media screen and (max-width:500px){
+
+#div-s2{
+    padding:0px;
+    margin-left:0px;
+}
+
+#div-s2>div {
+  padding:0px;
+  width: 100%;
+  margin: 0px;
+  display: block;
+
+}
+#div-s2>div img{
+    width:95%;
+    height:auto;
+    margin:8px;
+}
+.S2-indiv{
+    width:95%;
+    margin:9px;
+}
+}
